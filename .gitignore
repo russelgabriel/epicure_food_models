@@ -1,3 +1,21 @@
-.python-version
-.qodo
-.gitignore
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+# --- uv (if you use it) ---
+# Keep uv.lock committed for reproducible installs; ignore only local cache if needed
+.uv/
+# --- data ---
+data/
